@@ -12,9 +12,9 @@ function App() {
       <h1>I am the APP</h1>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={Login}></Route>
-          <Route path="/search" element={Search}></Route>
-          <Route path="/saved" element={Saved}></Route>
+          <Route path="/" element={<Login />}></Route>
+          <Route path="/search" element={<Search />}></Route>
+          <Route path="/saved" element={<Saved />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
